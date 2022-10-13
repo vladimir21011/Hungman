@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(34, 175, 163);
+}
+.wrapper {
+  width: 50%;
+  margin: 1vh auto;
+  padding: 20px;
+  border: 1px solid pink;
+  text-align: center;
+}
+.golova {
+    margin: 20px;
+}
+.gameInput img {
+    margin: 20px;
+}
+.img {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+input {
+    width: 20%;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    margin-right: 20px;
+}  
+button {
+    width: 20%;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
