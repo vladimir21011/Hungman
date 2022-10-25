@@ -1,28 +1,36 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Висилица</title>
+    <title>HUNGMAN</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="wrapper">
-        <header class="golova">
-            <h2>Сыграем в игру!?!?</h2>
-            <h4>Висилица!!!!</h4>
-        </header>
-        <div class="gameInput">
-            <input type="text" maxlength="1" autofocus />
-            <button>
-                OK
-            </button>
-            <img class="img" src="./images/1.png" alt="">
+    <body>
+        <div class="wrapAll">
+            <h1> HUNGMAN </h1>
+
+            <div id="imgWrapper">
+                <img id="img" src="./img/1.png" alt="">
+                <span id="message">Валерчик, ты проиграл!</span>
+            </div> 
+            <div id="containerRandomWords"></div> 
+            <div class="wrapInput">
+                <input
+                  type="text"
+                  placeholder="Enter your letter"
+                  size="30"
+                  id="input"
+                  maxlength="1"
+                />
+                <button id="button" disabled="true">OK</button>
+            </div> 
+              <div id="containerButtonStart">
+                <button id="buttonRestart">Start again</button>
+              </div> 
         </div>
-        <footer class="footer">
-            
-        </footer>
-    </div>
-</body>
+        
+        <script type="module" src="main.js"></script>
+    </body>
 </html>
